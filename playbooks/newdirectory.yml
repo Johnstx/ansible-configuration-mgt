@@ -24,7 +24,7 @@
   become_user: root
 
   tasks:
-    - name: Create directory
+    - name: Create new directory 
       file:
       path: /home/ubuntu/sample_folder
       state: directory
