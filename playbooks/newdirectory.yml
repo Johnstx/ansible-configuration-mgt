@@ -8,8 +8,8 @@
   tasks:
     - name: Create directory
       file:
-      path: /home/ec2/sample_folder
-      state: directory
+        path: /home/ec2/sample_folder
+        state: directory
     
 
     - name: Create a file inside the directory
@@ -24,10 +24,10 @@
   become_user: root
 
   tasks:
-    - name: Create new directory 
+    - name: Create directory 
       file:
-      path: /home/ubuntu/sample_folder
-      state: directory
+        path: /home/ubuntu/sample_folder
+        state: directory
     
 
     - name: Create a file inside the directory
