@@ -37,8 +37,8 @@
     block: | 
       {{ item.ip }} {{ item.name }}
   loop:
-    - { name: web1, ip: 172.31.5.100 }
-    - { name: web2, ip: 172.31.1.28 }
+    - { name: web1, ip: 172.31.13.19 }
+    - { name: web2, ip: 172.31.14.30 }
 
 # Nginx setup.
 - name: Copy nginx configuration in place.
